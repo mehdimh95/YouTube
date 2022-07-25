@@ -1,7 +1,9 @@
+import SearchBar from "./SearchBar"
+
 const App = () => {
 
   return (
-    <div>hello</div>
+    <SearchBar />
   )
 
 
