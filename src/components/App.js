@@ -1,9 +1,15 @@
-import SearchBar from "./SearchBar"
+
+import NavBar from "./SearchBar"
 
 const App = () => {
 
   return (
-    <SearchBar />
+
+
+    <NavBar />
+
+
+
   )
 
 
