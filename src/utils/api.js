@@ -16,7 +16,7 @@ class Api {
   async search(term) {
     try {
       const { status, data } = await this.axios.get("search", {
-        params: { q: term, maxResults: 5 },
+        params: { q: term, maxResults: 25 },
       });
 
       if (status !== 200)
