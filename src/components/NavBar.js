@@ -1,9 +1,7 @@
 import SearchBar from "./SearchBar";
 
 const NavBar = () => {
+  return <SearchBar />;
+};
 
-
-    <SearchBar />
-}
-
-export default NavBar
+export default NavBar;
