@@ -5,7 +5,7 @@ const VideoList = ({ videos }) => {
     <div>
       {videos.length
         ? videos.map((video) => (
-            <div key={video.id}>
+            <div key={video.id.videoId}>
               <VideoItem {...video} />
             </div>
           ))
