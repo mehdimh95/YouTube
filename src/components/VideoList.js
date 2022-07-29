@@ -2,7 +2,7 @@ import VideoItem from "./VideoItem";
 
 const VideoList = ({ videos }) => {
   return (
-    <div>
+    <div className="grid grid-cols-4 gap-x-4 gap-y-10 p-10">
       {videos.length
         ? videos.map((video) => (
             <div key={video.id.videoId}>
