@@ -15,7 +15,7 @@ const VideoItem = ({
         <div className="flex text-sm items-start gap-x-4">
           <img
             className="rounded-full aspect-square"
-            src="https://picsum.photos/50/50"
+            src="https://picsum.photos/48/48"
             alt=""
           />
           <div className="block">
