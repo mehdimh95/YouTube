@@ -1,5 +1,11 @@
-const VideoItem = ({ snippet: { title, thumbnails, channelTitle } }) => {
+import { Link } from "react-router-dom";
+
+const VideoItem = ({
+  snippet: { title, thumbnails, channelTitle },
+  id: { videoId },
+}) => {
   return (
+    <Link to={`/v/${videoId}`}>
     <div className="flex flex-col gap-y-4 items-start">
       <img
         className="w-full aspect-video"
@@ -18,6 +24,7 @@ const VideoItem = ({ snippet: { title, thumbnails, channelTitle } }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 
