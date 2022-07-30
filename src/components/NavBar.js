@@ -5,7 +5,7 @@ import youtubeLogo from "../assets/youtube-logo.png";
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between py-2 px-10 border-b-2">
+    <div className="flex justify-between py-2 px-10 ">
       <img className="w-24" src={youtubeLogo} alt="YouTubeLogo" />
 
       <SearchBar />
