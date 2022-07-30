@@ -1,4 +1,3 @@
-import NavBar from "./NavBar";
 import ReactPlayer from "react-player";
 import moment from "moment";
 const VideoDetail = ({ video, videoMinimal }) => {
