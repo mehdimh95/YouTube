@@ -6,24 +6,24 @@ const VideoItem = ({
 }) => {
   return (
     <Link to={`/v/${videoId}`}>
-    <div className="flex flex-col gap-y-4 items-start">
-      <img
-        className="w-full aspect-video"
-        src={thumbnails.high.url}
-        alt={title}
-      />
-      <div className="flex text-sm items-start gap-x-4">
+      <div className="flex flex-col gap-y-4 items-start">
         <img
-          className="rounded-full aspect-square"
-          src="https://picsum.photos/50/50"
-          alt=""
+          className="w-full aspect-video"
+          src={thumbnails.high.url}
+          alt={title}
         />
-        <div className="block">
-          <strong>{channelTitle}</strong>
-          <p>{title}</p>
+        <div className="flex text-sm items-start gap-x-4">
+          <img
+            className="rounded-full aspect-square"
+            src="https://picsum.photos/50/50"
+            alt=""
+          />
+          <div className="block">
+            <strong>{channelTitle}</strong>
+            <p>{title}</p>
+          </div>
         </div>
       </div>
-    </div>
     </Link>
   );
 };
