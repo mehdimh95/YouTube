@@ -17,7 +17,7 @@ const Search = () => {
       setVideos(result);
     };
     getResult();
-  }, [searchTerm]);
+  }, [searchTerm, setVideos]);
 
   return (
     <>
