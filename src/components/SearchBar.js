@@ -27,7 +27,7 @@ const SearchBar = () => {
         ref={inputRef}
         type="text"
         placeholder="Search youtube"
-        className="input input-bordered lg:w-1/3 rounded-none border-gray-400 focus:outline-none"
+        className="input input-bordered w-full rounded-none border-gray-400 focus:outline-none"
       />
 
       <button className="btn btn-ghost rounded-none border-gray-400 bg-gray-200">

@@ -3,7 +3,7 @@ import VideoItem from "./VideoItem";
 const VideoList = ({ videos }) => {
   // console.log(videos);
   return (
-    <div className="grid grid-cols-4 gap-x-4 gap-y-10 p-10 border-t-2">
+    <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-4 gap-y-10 p-10 border-t-2">
       {videos && videos.length
         ? videos.map((video) => (
             <div key={video.id.videoId}>
@@ -11,7 +11,7 @@ const VideoList = ({ videos }) => {
             </div>
           ))
         : new Array(12).fill(null).map((_, index) => (
-            <div key={index} className="flex flex-col gap-y-4 animate-pulse">
+            <div key={index} className="flex flex-col  gap-y-4 animate-pulse">
               <div
                 key={index}
                 className="aspect-video bg-gray-500 animate-pulse"
